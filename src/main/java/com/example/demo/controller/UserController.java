@@ -102,6 +102,31 @@ public class UserController {
     response.put("deleted", Boolean.TRUE);
     return response;
   }
+  
+  // Supply Quer parameters in the path
+  
+  /**
+   * Get user response entity.
+   *
+   * @param lastName the lastName
+   * @param userDetails the user details
+   * @return the List of response entity
+   * @throws ResourceNotFoundException the resource not found exception
+   */
+  
+@GetMapping("/users/lastName")
+public List<User> getAllUsersByQueryParam(@RequestParam(required = false) String lastName) {
+	// If lastName supply as query parameter then below
+    // Use the customize method of 	- getUsersByLastName - see in the repository and also used below
+	
+	if ( (lastName != null)&&(lastName != "") )
+		return userRepository.findByLastNameIgnoreCase(lastName);  
+	// When lastName not supply in the query path parameter and also supply lastName as empty string then return all.
+	else return userRepository.findAll();
+	
+}
+  
+  
 // ====================   Below Cutom Methods ========================
 
 @GetMapping("/users/lastNames/{lastName}")
