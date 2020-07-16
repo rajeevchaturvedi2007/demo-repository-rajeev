@@ -1,6 +1,6 @@
 # Rajeev_Repository
 # **demo : Spring Boot project** 
-# This roject use the Spring Boot with in built Tomcat 
+# This project use the Spring Boot with in built Tomcat 
 
 # Main Commands which run from Command prompt - where your pom file exist
 
