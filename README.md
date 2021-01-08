@@ -18,10 +18,14 @@ Example: https://github.com/rajeevchaturvedi2007/demo-repository-rajeev.git
 3.	Create a folder in your C: Drive 
 Example: c:/temp
 4.	Now open the Git Bash Command prompt and go inside the /temp folder
+
 a.	Example: c:/temp:
+
 5.	Now run the command – git clone cloneURL
+
 a.	This command will create a folder inside the folder from which you run this command. The name of the folder will be the name of the git repository
 b.	Example: c:/temp/demo-repository-rajeev
+
 6.	Now copy the whole source code which you want to push to the Git Repository
 7.	Now, go to folder (created in step 5) in the Git Bash Command prompt
 a.	Example: c:/temp/ demo-repository-rajeev> Here all your source Code including all files etc.
