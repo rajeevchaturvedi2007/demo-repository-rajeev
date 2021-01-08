@@ -9,8 +9,10 @@
 # **mvn spring-boot: run**    (This will start the Tomcat on your local command prompt. Please run from the folder which has pom file)
 
 
--------------   Git Commands Below ----------------------
-First Time pushing Code to Git Repository:
+# -------------   Git Commands Below ----------------------
+
+## First Time pushing Code to Git Repository:
+
 1.	Create the git repository in the Git Lab browser
 Example: https://github.com/rajeevchaturvedi2007/demo-repository-rajeev
 2.	Copy the Clone URL of the git project
